@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<a class="title text-xl underline">
+  {{ page.title }}
+</a>
+<p class="subtitle text-sm"><strong>[{{ page.date }}]</strong></p>
+<br>
+{{ page.content | safe }}
+{% endblock content %}
