@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+<a class="title text-xl underline">
+  {{ page.title }}
+</a>
+<br>
+{{ page.content | safe }}
+{% endblock content %}

@@ -39,3 +39,6 @@ date = 2022-06-08
 <a>Create a file name style.css in the same directory where index.html is located. Now open your index.html and add this line in between the < head > tags.</a>
 <br>
 <br>
+<a class="mono-font border-2 rounded p-2 border-stone-600">< link rel="stylesheet" href="style.css"></a>
+<br>
+<br>
